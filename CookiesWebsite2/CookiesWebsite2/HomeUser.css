@@ -1,0 +1,21 @@
+﻿.home-heading {
+    font-family: 'Cookie', cursive;
+    font-weight: 900;
+    font-size: 90px;
+    color: #B67352;
+}
+
+.parag-home {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+    color: #7D7C7C;
+}
+
+.image-top {
+    background-image: url('images/dropMelted.png');
+    background-repeat: round;
+    background-size: 100%;
+    height: 550px;
+}

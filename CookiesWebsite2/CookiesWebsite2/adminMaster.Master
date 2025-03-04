@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMaster.master.cs" Inherits="CookiesWebsite2.adminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./all.min.css" />
+       <link rel="stylesheet" href="./homeMaster.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <p class="heading-paragraph py-4 mb-0"> Welcome Admin </p>
+            </div>
+              <div class="navbar-background">
+                <nav class="navbar navbar-expand-lg navbar-light w-50 m-auto ">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link active link-font" aria-current="page" href="ViewCustomers.aspx">View Customers</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link link-font" href="ViewProducts.aspx">View Products</a>
+                                </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link link-font" href="Login.aspx">Logout</a>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

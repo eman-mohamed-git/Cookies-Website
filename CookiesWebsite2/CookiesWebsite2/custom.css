@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url('./images/vo.jpg');
+    background-size: cover; /* Ensures the image covers the whole background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.login-form {
+     margin-top:100px;
+
+}
+
+
+
+.semi-transparent {
+    background-color: #F0C6D6; /* Adjust the alpha value (0.5) to control transparency */
+}
+
+.form-div {
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+   
+}
+
+.font-edit {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color:#2E1503;
+
+}
+
+.header-font-edit {
+    font-size: 40px;
+    font-weight:bolder;
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+
+.sign-up-button {
+    background-color: #000000;
+    color:white;
+    border-radius:30px;
+
+}

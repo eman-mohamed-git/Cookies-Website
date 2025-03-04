@@ -1,0 +1,33 @@
+﻿body {
+}
+/*.profile-heading {
+    font-family: "Dancing Script", cursive;
+    color: #B67352;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px pink, -1px -1px 2px grey;
+}*/
+
+.page-title {
+    font-family: 'Cookie', cursive; /* Cookie font */
+    font-size: 90px; /* Adjust as needed */
+    color: #B67352;
+    padding-bottom: 10px;
+    margin-bottom: 0px; /* Space below the title */
+}
+
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.user-profile-sub-heading {
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+    color: #B67352;
+}
+

@@ -1,0 +1,38 @@
+﻿.heading-paragraph {
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    background-color: #B67352;
+    color: white;
+}
+
+.navbar-background {
+    background-color: #F3D0D7;
+}
+
+.link-font {
+    font-weight: 600;
+    font-size: 23px;
+    color: white !important;
+    margin-left: 15px;
+}
+
+.footer {
+    background-color: #B67352;
+    color: white;
+    padding: 30px;
+}
+
+    .footer h5 {
+        font-family: "Dancing Script", cursive;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+.menu-h1 {
+    font-family: "Dancing Script", cursive;
+    color: #B67352;
+    font-size: 50px;
+}
